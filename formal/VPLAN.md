@@ -2,7 +2,7 @@
 
 This folder holds formal checks for the integer square root (`rtl/ISR.sv`) and the pipelined multiplier it uses (`rtl/mult.sv`, `rtl/mult_stage.sv`). They complement the simulation checks in `sva/` and `uvm/`, which run on VCS.
 
-- **Tools:** SymbiYosys with the Yosys front end, the yices and bitwuzla SMT solvers, and the YosysHQ OSS CAD Suite build from 2026-11-11.
+- **Tools:** SymbiYosys with the Yosys front end, the yices and bitwuzla SMT solvers, and the YosysHQ OSS CAD Suite.
 - **The RTL is not edited.** The Makefile pastes each property file into a copy of the module under `build/`.
 - **To run:** `make` runs every quick check in about 80 seconds on a laptop.
 
